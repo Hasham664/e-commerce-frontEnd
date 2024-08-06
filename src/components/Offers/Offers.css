@@ -53,9 +53,10 @@
 .offers-left h1{
     font-size: 35px;
 }
-}
-@media all and (max-width:450px){
-    .offers-right img{
+ .offers-right img{
         width: 97% !important;
     }
+}
+@media all and (max-width:450px){
+   
 }
