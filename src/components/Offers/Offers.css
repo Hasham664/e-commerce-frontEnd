@@ -56,6 +56,6 @@
 }
 @media all and (max-width:450px){
     .offers-right img{
-        width: 97%;
+        width: 97% !important;
     }
 }
