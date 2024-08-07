@@ -49,6 +49,7 @@
     color: white;
     font-size: 16px;
     cursor: pointer;
+    border: none;
 }
 @media all and (max-width:768px){
     .newsletter div {
@@ -57,7 +58,7 @@
 }
 .newsletter{
     align-items: start;
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
 .newsletter h1{
     max-width: 400px;
@@ -75,9 +76,16 @@
         border-radius: 10px;
     }
     .newsletter input {
-        margin-left: 20px;
+        margin-left: 10px !important;
     }
 .newsletter div button{
     border-radius: 10px;
+    font-size: 14px;
+    height: 60px;
 }
+    .newsletter div {
+        width: 97%;
+        max-width: 550px;
+        height: 60px;
+    }
 }
